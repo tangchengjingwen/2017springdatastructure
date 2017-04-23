@@ -1,0 +1,30 @@
+Stack
+Class Stack {
+private:
+   Int* data;
+   Int sp;
+public:
+   Stack() {
+      data = new int[16];
+   }
+   void push(int v) { }
+   int pop() {  }
+   Int size() const { return sp; }
+   Int peek() const {}
+}
+
+Class Stack {
+private:
+  LinkedList list;
+
+Queue
+Class Queue {
+   LinkedList list;
+Public:
+
+	Void enqueue(int v) {  }
+	int dequeue() {  }
+	Int size() { }
+
+};
+
